@@ -9,3 +9,7 @@ function myEach(arr, CB){
 //}
 //myEach(fruits, callbackFunc)
 myEach(fruits, s => "s")
+//output
+//Apples
+//Oranges
+//Cherrys

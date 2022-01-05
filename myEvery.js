@@ -14,3 +14,5 @@ function myEvery(arr, cb){
 }
 let array = [1, 30, 31, 29, 10, 13];
 console.log(myEvery(array,a => a < 40))
+//output
+//true

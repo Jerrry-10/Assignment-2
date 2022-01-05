@@ -10,3 +10,5 @@ function myFilter(arr, cb){
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 const b = item => item.length > 6;
 console.log(myFilter(words, b));
+//output
+//[ 'exuberant', 'destruction', 'present' ]

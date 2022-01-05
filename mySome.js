@@ -8,3 +8,5 @@ function mySome(arr, cb){
     return false;
 }
 console.log(mySome(array4, d => d % 2 == 0))
+//output
+//true

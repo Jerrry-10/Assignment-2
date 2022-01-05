@@ -8,3 +8,5 @@ function myIndexOf(arr,target){
     return -1;
 }
 console.log(myIndexOf(beasts,"duck"));
+//output
+//3

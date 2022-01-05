@@ -7,3 +7,5 @@ function myReduce(arr, cb){
     return a;
 }
 console.log(myReduce(array,(x,y)=> x + y))
+//output
+//10

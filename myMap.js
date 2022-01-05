@@ -10,3 +10,5 @@ function myMap(arr, cb){
 
 const map = myMap(array, a => a + 1);
 console.log(map);
+//output
+//[ 2, 3, 4, 5, 6 ]
