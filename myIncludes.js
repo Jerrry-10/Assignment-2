@@ -9,3 +9,5 @@ function myIncludes( arr, cb){
     
 }
 console.log(myIncludes(array1, 2))
+//output
+//true
