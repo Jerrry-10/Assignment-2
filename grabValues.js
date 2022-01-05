@@ -6,10 +6,10 @@ const object1 = {
   function grabKeys(obj){
     let arr = []
     for(key in obj){
-        arr.push(key)
+        arr.push(obj[key])
     }
     return arr;
   }
   console.log(grabKeys(object1))
   //output
-  //[ 'a', 'b', 'c' ]
+  //[ 'somestring', 42, false ]
